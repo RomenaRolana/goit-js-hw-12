@@ -14,14 +14,9 @@
     <input type="text" id="query" placeholder="Search images..." required>
     <button type="submit">Search</button>
 </form>
-
+<span class="loader"></span>
 <div class="gallery" id="gallery"></div>
-
-<!-- Додана кнопка Load more -->
-<button id="load-more" style="display: none;">Load more</button>
-
-<!-- Переміщений індикатор завантаження під кнопку Load more -->
-<span class="loader" style="display: none;"></span> <!-- Приховано спочатку -->
+<button type="button" id="load-more" style="display:none;">Load more</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js"></script>
